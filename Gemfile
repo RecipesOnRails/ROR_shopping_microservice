@@ -1,31 +1,23 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+source 'https://rubygems.org'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
-gem 'bundler'
 
-# gem "rails"
-gem 'sinatra'
+gem 'json'
+gem 'minitest'
+
 gem 'figaro', git: 'https://github.com/bpaquet/figaro.git', branch: 'sinatra'
-gem 'activerecord', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
-gem 'thin'
-gem 'shotgun'
-gem 'pry'
 gem 'faraday'
+gem 'sinatra'
+gem 'travis'
+gem 'rubocop'
+gem 'simplecov'
 
-group :development do
-   gem 'travis'
+group :development, :test do
+  gem 'pry'
 end
 
 group :test do
+  gem 'rack-test'
   gem 'rake'
-  gem 'rspec-sinatra'
-  gem 'capybara'
-  gem 'launchy'
-  gem 'simplecov'
-  gem 'shoulda-matchers', '~> 4.0'
 end
