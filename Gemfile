@@ -16,13 +16,13 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'faraday'
-gem 'rake'
 
 group :development do
    gem 'travis'
 end
 
 group :test do
+  gem 'rake'
   gem 'rspec-sinatra'
   gem 'capybara'
   gem 'launchy'
