@@ -16,6 +16,7 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'faraday'
+gem 'rake'
 
 group :development do
    gem 'travis'
