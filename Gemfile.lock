@@ -139,6 +139,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  bundler
   capybara
   faraday
   figaro!
