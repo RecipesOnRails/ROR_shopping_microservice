@@ -21,9 +21,7 @@ class ShoppingService
     response = connection(token).put('/v1/cart/add') do |conn|
       conn.params['quantity'] = quantity
       conn.params['upc'] = upc
+      conn.body = {'quantity': quantity, 'upc': upc}.to_json
     end
-    require "pry";binding.pry
-    data = response.body
-
   end
 end
