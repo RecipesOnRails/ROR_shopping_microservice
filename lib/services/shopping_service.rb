@@ -16,4 +16,14 @@ class ShoppingService
     data = response.body
     JSON.parse(data, symbolize_names: true).first[1][0][:upc]
   end
+
+  def self.add_to_cart(quantity, upc, token)
+    response = connection(token).put('/v1/cart/add') do |conn|
+      conn.params['quantity'] = quantity
+      conn.params['upc'] = upc
+    end
+    require "pry";binding.pry
+    data = response.body
+
+  end
 end
