@@ -1,6 +1,8 @@
 require "./config/environment"
 require 'rack/test'
 require 'rspec'
+require 'webmock/rspec'
+require 'vcr'
 ENV['RACK_ENV'] = 'test'
 RSpec.configure do |config|
   config.include Rack::Test::Methods
@@ -24,4 +26,9 @@ end
 
 def app
   @app = ShoppingMicroserviceController
+end
+
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  config.hook_into :webmock
 end

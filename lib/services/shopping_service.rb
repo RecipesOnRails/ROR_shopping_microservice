@@ -2,20 +2,18 @@ require 'sinatra'
 require 'json'
 class ShoppingService
 
-  def connection(token)
-    binding.pry
+  def self.connection(token)
     Faraday.new("https://api.kroger.com") do |conn|
       conn.headers['Authorization'] = "Bearer #{token}"
       conn.headers['Cache-Control'] = 'no-cache'
+    end
   end
 
-  def get_data(uri, product, token)
-    binding.pry
-    response = connection(token).get(uri) do |conn|
+  def self.get_product_upc(product, token)
+    response = connection(token).get('/v1/products') do |conn|
       conn.params['filter.term'] = product
     end
     data = response.body
-    JSON.parse(data, symbolize_names: true)
-    binding.pry
+    JSON.parse(data, symbolize_names: true).first[1][0][:upc]
   end
 end
