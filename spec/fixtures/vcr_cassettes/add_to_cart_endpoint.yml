@@ -8,7 +8,7 @@ http_interactions:
       string: '{"quantity":1,"upc":"0021065600000"}'
     headers:
       Authorization:
-      - Bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vYXBpLmtyb2dlci5jb20vdjEvLndlbGwta25vd24vandrcy5qc29uIiwia2lkIjoiWjRGZDNtc2tJSDg4aXJ0N0xCNWM2Zz09IiwidHlwIjoiSldUIn0.eyJhdWQiOiJyZWNpcGVzb25yYWlscy00ODEwNWU1MmI4ZTNmMzdjMGY1M2I1OWQ4NTQ5YjBmZDQwMDMwNjE0OTg5Njk1OTE3NSIsImV4cCI6MTYxODY5ODg5NCwiaWF0IjoxNjE4Njk3MDg5LCJpc3MiOiJhcGkua3JvZ2VyLmNvbSIsInN1YiI6IjdlOWY4ZmVjLTMwMWUtNWEzMy1hMWYxLTFiMWVjM2NmZmI1ZCIsInNjb3BlIjoiY2FydC5iYXNpYzp3cml0ZSIsImF1dGhBdCI6MTYxODY5NzA5NDUzODYxMjM2OCwicGZjeCI6InVybjprcm9nZXJjbzpwcm9maWxlOnNob3BwZXI6YzRiN2U2YmQtOTEzMi00MTYxLTg4ZGEtMjk4MDY2MmJmZWEwIiwiYXpwIjoicmVjaXBlc29ucmFpbHMtNDgxMDVlNTJiOGUzZjM3YzBmNTNiNTlkODU0OWIwZmQ0MDAzMDYxNDk4OTY5NTkxNzUifQ.fWWBd0VwdNvndOmkgsP8WSXFL_4aa9gvB2AIuTj4aGZuriitB81Kf27w_F0fm2lb8HjYehT_YZR6VWWXq6cRQJnD15pdebB-wh02K3e-t8GqkIFrEeetmwJUMwLJD_N6hJCdQsYRxfaP5ljadwQh7TDSQ3_DvgwXG4K-b4da3tD8U8-pBMAElG_rsws9gR2uwxcOHYC2WH34qjN2hUHPozz9d87QlD9GKeHVQuK9sCY5YFF6-ihia1fvryBuQ_q7riSrMMooanoq5xa21jDNKJ4RF-e7Of2nd3psF-ilBftX2Eier-oAnZ5M_vJ7ExBojtFjw0v3hCzlo7e37gqKkA
+      - Bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vYXBpLmtyb2dlci5jb20vdjEvLndlbGwta25vd24vandrcy5qc29uIiwia2lkIjoiWjRGZDNtc2tJSDg4aXJ0N0xCNWM2Zz09IiwidHlwIjoiSldUIn0.eyJhdWQiOiJyZWNpcGVzb25yYWlscy00ODEwNWU1MmI4ZTNmMzdjMGY1M2I1OWQ4NTQ5YjBmZDQwMDMwNjE0OTg5Njk1OTE3NSIsImV4cCI6MTYxODc2NTc0NSwiaWF0IjoxNjE4NzYzOTQwLCJpc3MiOiJhcGkua3JvZ2VyLmNvbSIsInN1YiI6IjdlOWY4ZmVjLTMwMWUtNWEzMy1hMWYxLTFiMWVjM2NmZmI1ZCIsInNjb3BlIjoiY2FydC5iYXNpYzp3cml0ZSIsImF1dGhBdCI6MTYxODc2Mzk0NTEyNDM5MDg2MywicGZjeCI6InVybjprcm9nZXJjbzpwcm9maWxlOnNob3BwZXI6YzRiN2U2YmQtOTEzMi00MTYxLTg4ZGEtMjk4MDY2MmJmZWEwIiwiYXpwIjoicmVjaXBlc29ucmFpbHMtNDgxMDVlNTJiOGUzZjM3YzBmNTNiNTlkODU0OWIwZmQ0MDAzMDYxNDk4OTY5NTkxNzUifQ.Deuymwy7Oe1wvmKjP2HvJQ0s7kSNPWjRy3mXSZkrB2iajDQ703oD2CPnaHhpTi9AIK1Ylq2gk374ACsagJJx7TTIJfjvBeK1Y3SMSjb3QeqE4pypQDwlYfW1CyILJAe2gh2Lsho8ZoBB3zOQe5eWhrBPUteNjFimqYJqm-c3UX7aHlhg87yt8pW48XSurciqwTxkcRnYGZeHYRXU-tYgd_T6M3YQ_fhLhA2aaztbdWrvnGVjZ6Kmj1pmXYbr3RvYujg3N8CHP9fKu0u0qV8vVDx76KGcH4yIdUM9QpZZN0iVTx9vL9dxhPHsKpSTtChr_NjR_yyva1KoARvKgDDbRg
       Cache-Control:
       - no-cache
       User-Agent:
@@ -27,32 +27,32 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Akamai-Be-Grn:
-      - 0.04032417.1618698875.d6cc9e4
+      - 0.24ef6368.1618764078.529b99f
       Server:
       - Kroger API Gateway
       X-Correlation-Id:
-      - rrt-8564423735005142483-b-gwo1-18811-23457949-93
+      - rrt-5408845360655752663-a-gwo1-2937-23946592-24
       X-Frame-Options:
       - SAMEORIGIN
       X-Kroger-Proxy-Latency:
       - '6'
       X-Kroger-Upstream-Latency:
-      - '62'
+      - '38'
       X-Vcap-Request-Id:
-      - 1bf997c5-309f-4130-4967-ae5de414e32c
+      - d4cd3b27-62e7-4246-745a-be8ff0a49b8a
       Date:
-      - Sat, 17 Apr 2021 22:34:35 GMT
+      - Sun, 18 Apr 2021 16:41:18 GMT
       Connection:
       - keep-alive
       Akamai-Grn:
-      - 0.b21a32b8.1618698875.1fc99c89
+      - 0.4c0be8ac.1618764078.111f7687
       Strict-Transport-Security:
       - max-age=86400
       Set-Cookie:
-      - akaalb_Digital_ALB_API=~op=KT_Digital_API_Apigee:api-apigee|~rv=76~m=api-apigee:0|~os=75b4a9ec926d2a9e67035451773cec6c~id=2887be3480ee1bc58001a58137e1b761;
+      - akaalb_Digital_ALB_API=~op=KT_Digital_API_Apigee:api-apigee|~rv=1~m=api-apigee:0|~os=75b4a9ec926d2a9e67035451773cec6c~id=c81579fa7543c6869fabd7c074658af2;
         path=/; HttpOnly; Secure; SameSite=None
     body:
       encoding: UTF-8
       string: ''
-  recorded_at: Sat, 17 Apr 2021 22:34:36 GMT
+  recorded_at: Sun, 18 Apr 2021 16:41:18 GMT
 recorded_with: VCR 6.0.0
