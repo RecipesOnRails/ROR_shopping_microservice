@@ -2,8 +2,8 @@ require 'sinatra'
 require 'rubygems'
 require 'bundler'
 require 'require_all'
-run ShoppingMicroserviceController
 
 Bundler.require
+require_all 'lib'
 
 run ShoppingMicroserviceController
