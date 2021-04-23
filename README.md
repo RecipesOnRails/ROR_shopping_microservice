@@ -1,4 +1,4 @@
-# ROR_shopping_microservice
+# Recipes on Rails - Kroger Microservice
 
 We utilized the [Kroger Public APIs](https://developer.kroger.com/) to handle our user authentication in this project. 
 
